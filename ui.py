@@ -47,5 +47,5 @@ def display_board(board):
             
 
                 
-display_board(engine.put_player_on_board(3, 5, engine.create_board(1)))
+
 

@@ -50,10 +50,11 @@ def create_board(current_level):
 
 def put_player_on_board(player_x, player_y, board):
     for index, array in enumerate(board):
-        if index == player_x:
+        if index == player_y:
             for index, elem in enumerate(array):
-                if index == player_y:
+                if index == player_x:
                     array[index] = 3
     return board
+            
             
     
