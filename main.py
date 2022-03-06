@@ -1,3 +1,4 @@
+from syslog import LOG_LOCAL0
 import engine
 import ui
 import movement
@@ -15,3 +16,4 @@ if __name__ == '__main__':
         os.system('clear')
         ui.display_board(engine.put_player_on_board(player_x, player_y, engine.create_board(current_level)))
         
+        LOG_LOCAL0
